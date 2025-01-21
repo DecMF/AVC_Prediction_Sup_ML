@@ -36,20 +36,19 @@ Este projeto tem como objetivo modelar classificadores binários para a prediç�
 ##  Resultados
 ### **Estatísticas e Correlação**
 Análise descritiva e correlação entre variáveis:
-![Matriz de Correlação](images/Multicorrel.png)
-
+![Matriz de Correlação](./project/images/Multicorrel.png)
 ### **Ajuste de Limiar**
 Para lidar com o desbalanceamento, os limiares foram ajustados:
 - **Regressão Logística:** Limiar ajustado para `0.51`.
 - **Random Forest:** Limiar ajustado para `0.251`.
-![Ajuste de Threshold](images/threshold_reg_log.png)
+![Ajuste de Threshold](./project/images/threshold_reg_log.png)
 
 ### **Matrizes de Confusão**
 Desempenho comparativo dos modelos:
 - **Regressão Logística:**
-  ![Matriz de Confusão - Regressão Logística](images/confusion_reg_log.png)
+  ![Matriz de Confusão - Regressão Logística](./project/images/confusion_reg_log.png)
 - **Random Forest:**
-  ![Matriz de Confusão - Random Forest](images/confusion_rf.png)
+  ![Matriz de Confusão - Random Forest](./project/images/confusion_rf.png)
 
 ### **Métricas de Desempenho**
 | Métrica                | Regressão Logística | Random Forest |
