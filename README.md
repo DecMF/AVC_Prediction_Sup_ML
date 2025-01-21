@@ -43,12 +43,25 @@ Para lidar com o desbalanceamento, os limiares foram ajustados:
 - **Random Forest:** Limiar ajustado para `0.251`.
 ![Ajuste de Threshold](./project/images/threshold_reg_log.png)
 
-### **Matrizes de Confusão**
+<!-- ### **Matrizes de Confusão**
 Desempenho comparativo dos modelos:
 - **Regressão Logística:**
   ![Matriz de Confusão - Regressão Logística](./project/images/confusion_reg_log.png)
 - **Random Forest:**
-  ![Matriz de Confusão - Random Forest](./project/images/confusion_rf.png)
+  ![Matriz de Confusão - Random Forest](./project/images/confusion_rf.png) --> -->
+
+
+### Matrizes de Confusão
+
+Desempenho comparativo dos modelos:
+
+| **Modelo**                | **Matriz de Confusão**                           |
+|---------------------------|--------------------------------------------------|
+| **Regressão Logística**   | ![Confusão Regressão Logística](./project/images/confusion_reg_log.png) |
+| **Random Forest**         | ![Confusão Random Forest](./project/images/confusion_rf.png)          |
+
+
+
 
 ### **Métricas de Desempenho**
 | Métrica                | Regressão Logística | Random Forest |
